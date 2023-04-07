@@ -7,7 +7,7 @@ def main():
 	querystring = {"q":f"{user_input}"}
 
 	headers = {
-		"Key": "0e4e0bb7322b4344830220742231303",
+		"Key": " place your key here ",
 	}
 	response = requests.request("GET", url, headers=headers, params=querystring)
 	print("RESPONSE STATUS:", response.status_code)
